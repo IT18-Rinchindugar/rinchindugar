@@ -17,7 +17,7 @@ export default function MobileMenu() {
   const data = [
     {
       title: "About",
-      href: "/about",
+      href: "/",
       icon: HiUser,
     },
     {
@@ -30,11 +30,11 @@ export default function MobileMenu() {
       href: "/blog",
       icon: HiBookmarkAlt,
     },
-    {
-      title: "Photos",
-      href: "/photos",
-      icon: HiCamera,
-    },
+    // {
+    //   title: "Photos",
+    //   href: "/photos",
+    //   icon: HiCamera,
+    // },
   ];
 
   const onToggleNav = () => {

@@ -23,13 +23,14 @@ type Props = {
   params: {
     post: string;
   };
+  searchParams?: { [key: string]: string | string[] | undefined };
 };
 
 const fallbackImage: string =
   "https://res.cloudinary.com/victoreke/image/upload/v1692636087/victoreke/blog.png";
 
 // Dynamic metadata for SEO
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata({ params }: any): Promise<Metadata> {
   const slug = params.post;
   const post: PostType = await sanityFetch({
     query: singlePostQuery,
@@ -78,7 +79,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function Post({ params }: Props) {
+export default async function Post({ params }: any) {
   const slug = params.post;
   const post: PostType = await sanityFetch({
     query: singlePostQuery,

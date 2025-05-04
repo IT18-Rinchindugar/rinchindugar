@@ -9,7 +9,7 @@ export default function Navbar() {
   const data = [
     {
       title: "About",
-      href: "/about",
+      href: "/",
     },
     {
       title: "Projects",
@@ -19,10 +19,10 @@ export default function Navbar() {
       title: "Blog",
       href: "/blog",
     },
-    {
-      title: "Photos",
-      href: "/photos",
-    },
+    // {
+    //   title: "Photos",
+    //   href: "/photos",
+    // },
   ];
 
   return (
