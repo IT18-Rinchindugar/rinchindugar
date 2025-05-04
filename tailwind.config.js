@@ -32,7 +32,7 @@ module.exports = {
       },
       backgroundImage: {
         noise:
-          "url('https://res.cloudinary.com/victoreke/image/upload/v1691779257/victoreke/noise.png')",
+          "url('https://cdn.sanity.io/images/begdtkfh/production/229f4563687e93d8581c8357780002f3e243eff4-6140x3164.png')",
       },
       backgroundPosition: {
         zero: "0 0",
