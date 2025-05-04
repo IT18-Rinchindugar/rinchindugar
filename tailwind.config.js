@@ -32,7 +32,7 @@ module.exports = {
       },
       backgroundImage: {
         noise:
-          "url('https://cdn.sanity.io/images/begdtkfh/production/8def12f77bba366c4c3ea05c65762f278ff6b436-1200x630.png')",
+          "url('https://cdn.sanity.io/images/begdtkfh/production/4c4dfe83336608b9003c2602b87a6719552adb3a-1800x945.png')",
       },
       backgroundPosition: {
         zero: "0 0",

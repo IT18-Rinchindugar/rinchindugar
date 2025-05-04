@@ -20,7 +20,7 @@ const options = {
     "Rinchindugar Ochirsumis a Software Developer and Technical Writer who is passionate about building solutions and contributing to open source communities",
   url: "https://rinchindugar.com",
   ogImage:
-    "https://cdn.sanity.io/images/begdtkfh/production/8def12f77bba366c4c3ea05c65762f278ff6b436-1200x630.png",
+    "https://cdn.sanity.io/images/begdtkfh/production/4c4dfe83336608b9003c2602b87a6719552adb3a-1800x945.png",
 };
 
 export const metadata: Metadata = {
